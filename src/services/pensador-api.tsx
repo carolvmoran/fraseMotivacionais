@@ -1,6 +1,6 @@
 export default class PensadorApi {
   private url = {
-    pensadorApi: "https://pensador-api.vercel.app/",
+    pensadorApi: "https://pensador-api.vercel.app/?term=Jesus+Cristo&max=7",
   };
 
   public async GetFrases(): Promise<any> {
